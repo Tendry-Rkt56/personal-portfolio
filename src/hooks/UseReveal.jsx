@@ -6,14 +6,14 @@ export function UseReveal (refs, isReveals = false) {
 
           const handleIntersect = function (entries, observer) {
                entries.forEach(entry => {
-                    if (entry.intersectionRatio > 0.1) {
+                    if (entry.intersectionRatio > 0.3) {
                          entry.target.classList.add('reveal-visible')
                          observer.unobserve(entry.target)
                     }
                })
           }
      
-          const observer = new IntersectionObserver(handleIntersect, {threshold:0.1})
+          const observer = new IntersectionObserver(handleIntersect, {threshold:0.3})
           if (isReveals) {
                refs.forEach((ref, index) => {
                     if (ref.current.classList.contains('servicesRev')) {
