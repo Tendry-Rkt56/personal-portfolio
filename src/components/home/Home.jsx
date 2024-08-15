@@ -22,7 +22,6 @@ export function Home () {
                          <a href="mailto:tendryzephyrin@gmail.com"><i className='bx bx-envelope'></i></a>
                          <a href="https://github.com/Tendry-Rkt56"><i className='bx bxl-github'></i></a>
                          <a href="https://web.facebook.com/rayan.andria.92"><i className='bx bxl-facebook'></i></a>
-                         <a href=""><i className='bx bxl-twitter'></i></a>
                     </div>
                     <div className="btn-group">
                          <a href="mailto:tendryzephyrin@gmail.com" className="btn">Contacter</a>

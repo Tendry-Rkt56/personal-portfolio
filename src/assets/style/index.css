@@ -9,12 +9,12 @@
 }
 
 :root {
-     --bg-color:#f5f5f;
-     /* --bg-color: #080808; */
+     /* --bg-color:#f5f5f; */
+     --bg-color:#f2f4f7;
      --second-bg-color: #000108;
      --text-color:#262626;
-     /* --main-color:#88f5d6; */
      --main-color:#71cfec; 
+     /* --main-color:rgb(85, 136, 225);  */
      --transition-delay:0.2s;
      --bg-project: #0c0c0c;
      --bg-footer:#080808;
@@ -62,7 +62,7 @@ body.dark-mode {
      --second-bg-color: #000108;
      --text-color:#f5F5F5;
      /* --main-color:#88f5d6; */
-     --main-color:#71cfec; 
+     /* --main-color:#71cfec;  */
      --transition-delay:0.2s; 
      --bg-project: #fefefe;
      --bg-footer: #f5F5F5;
@@ -932,18 +932,31 @@ span {
      font-size: 14px;
 }
 
-.social-icons {
+.footer-icons {
      margin-top: 10px;
 }
 
-.social-icons a {
-     color: var(--text-footer);
-     margin: 0 10px;
-     text-decoration: none;
-     font-size: 16px;
+.footer-icons a {
+     display:inline-flex;
+     justify-content:center;
+     align-items:center;
+     width:4.5rem;
+     height:4.5rem;
+     background:transparent;
+     border:1px solid var(--main-color);
+     font-size:2.5rem;
+     border-radius:50%;
+     color:var(--text-footer);
+     margin:3rem 1.5rem 3rem 0;
+     transition:.3s ease-in-out;
+     text-shadow:0 0 20px var(--main-color);
 }
 
-.social-icons a:hover {
+.footer-icons a:hover {
+     color:var(--text-color);
+     transform: scale(1.1) translateY(-5px);
+     box-shadow:0 0 25px var(--main-color);
+     background-color: var(--main-color);
      text-decoration: underline;
 }
 

@@ -3,7 +3,9 @@ import { useEffect } from "react";
 export function UseNavBar () {
 
      useEffect(() => {
+          
           const sections = document.querySelectorAll('section')
+
           const activates = (element) => {
                const id = element.getAttribute('id')
                const link = document.querySelector(`a[href="#${id}"]`)
@@ -16,14 +18,14 @@ export function UseNavBar () {
           
           const interesction = function (entries, observer) {
                entries.forEach(entry => {
-                    if (entry.intersectionRatio > 0.8) {
+                    if (entry.intersectionRatio > 0.7) {
                          activates(entry.target)
                     }
                })
           }
           
           if (sections.length > 0) {
-               const sectionObserver = new IntersectionObserver(interesction, {threshold:0.8})
+               const sectionObserver = new IntersectionObserver(interesction, {threshold:0.7})
                sections.forEach(section => sectionObserver.observe(section))
           }
      }, [])
