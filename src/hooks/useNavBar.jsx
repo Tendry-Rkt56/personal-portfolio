@@ -18,14 +18,14 @@ export function UseNavBar () {
           
           const interesction = function (entries, observer) {
                entries.forEach(entry => {
-                    if (entry.intersectionRatio > 0.7) {
+                    if (entry.intersectionRatio > 0.8) {
                          activates(entry.target)
                     }
                })
           }
           
           if (sections.length > 0) {
-               const sectionObserver = new IntersectionObserver(interesction, {threshold:0.7})
+               const sectionObserver = new IntersectionObserver(interesction, {threshold:0.8})
                sections.forEach(section => sectionObserver.observe(section))
           }
      }, [])
