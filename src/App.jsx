@@ -6,8 +6,11 @@ import { NavBar } from "./components/navbar/NavBar";
 import { Project } from "./components/project/project";
 import { Service } from "./components/service/Service";
 import { ThemeProvider } from "./context/ThemeContext";
+import { UseNavBar } from "./hooks/useNavBar";
 
 function App () {
+
+    UseNavBar()
 
     return (
         <ThemeProvider>
