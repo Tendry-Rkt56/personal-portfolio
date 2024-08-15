@@ -17,6 +17,8 @@
      --main-color:#71cfec; 
      --transition-delay:0.2s;
      --bg-project: #0c0c0c;
+     --bg-footer:#080808;
+     --text-footer: #f5f5f5;
      /* --main-color:#00ffee; */
 }
 
@@ -63,6 +65,8 @@ body.dark-mode {
      --main-color:#71cfec; 
      --transition-delay:0.2s; 
      --bg-project: #fefefe;
+     --bg-footer: #f5F5F5;
+     --text-footer:#262626;
 }
 
 p {
@@ -904,6 +908,44 @@ span {
 
 /*-------------- Projets --------------------- */
 
+.footer {
+     display:flex;
+     align-items:center;
+     justify-content:center;
+     background-color:var(--bg-footer);
+     color: #fff;
+     text-align: center;
+     padding: 20px 0;
+     width: 100%;
+     height:40vh;
+}
+
+.footer-content {
+     max-width: 1200px;
+     margin: 0 auto;
+}
+
+.footer-content p {
+     color:var(--text-footer);
+     font-family: 'Roboto';
+     margin: 0;
+     font-size: 14px;
+}
+
+.social-icons {
+     margin-top: 10px;
+}
+
+.social-icons a {
+     color: var(--text-footer);
+     margin: 0 10px;
+     text-decoration: none;
+     font-size: 16px;
+}
+
+.social-icons a:hover {
+     text-decoration: underline;
+}
 
 /* -------------- Compétences ---------------------------- */
 
