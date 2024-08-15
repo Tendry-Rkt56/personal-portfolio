@@ -38,8 +38,8 @@ body {
 .mode-sombre{
      position:fixed;
      top:40%;
-     right:4%;
-     z-index:1;
+     right:2%;
+     z-index:100;
      display:flex;
      align-items:center;
      justify-content:center;
