@@ -1,15 +1,7 @@
-import { useEffect, useRef } from "react"
-
 export function Item ({slide}) {
      
-     const ref = useRef()
-
-     useEffect(() => {
-          console.log(ref.current.clientHeight)
-     }, [])
-
      return (
-          <div ref={ref} className="slide">
+          <div className="slide">
                <div className="image">
                     <img src={slide.image} alt=""/>
                </div>
