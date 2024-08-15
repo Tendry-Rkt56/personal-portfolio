@@ -5,7 +5,6 @@ export function NavBar () {
     const [isOpen, setIsOpen] = useState(false)
 
     const toggleNav = () => {
-        alert('Bonjour le ùoponde')
         setIsOpen(!isOpen)
     }
 
