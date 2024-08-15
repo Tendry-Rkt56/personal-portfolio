@@ -1,5 +1,6 @@
 import { useRef } from "react"
 import { UseReveal } from "../../hooks/UseReveal"
+import api from '../../assets/images/rest-api.png'
 
 export function Service () {
 
@@ -32,7 +33,7 @@ export function Service () {
                     </div>
                     <div ref={reveal_4} className="servicesRev reveals-12 card">
                          <a>
-                              <img src="images/free-rest-api-blue-logo-icon-22099-thumb.png" alt="" />
+                              <img src={api} alt="" />
                          </a>
                          <h3>Création d'API RESTfull</h3>
                          <p>
