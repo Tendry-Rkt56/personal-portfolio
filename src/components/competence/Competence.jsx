@@ -1,7 +1,6 @@
 import { useRef } from "react"
 import { UseCompetence } from "../../hooks/UseCompetence"
 import symfony from '../../assets/images/symfony-icon.png'
-import api from '../../assets/images/rest-api.png'
 import sql from '../../assets/images/sql.png'
 
 export function Competence () {

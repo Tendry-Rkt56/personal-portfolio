@@ -27,7 +27,7 @@ export function About () {
                               </p>
                               <ul>
                                    <li><strong>Nom:</strong> Tendry Rkt</li>
-                                   <li><strong>Téléphone:</strong>+261 034 64 131 87</li>
+                                   <li><strong>Téléphone:</strong><a href="https://wa.me/261346413187">+261 34 64 131 87</a></li>
                                    <li><strong>Experience:</strong> 2 Years</li>
                                    <li><strong>Email:</strong> tendryzephyrin@gmail.com</li>
                                    <li><strong>Age:</strong> 20</li>
