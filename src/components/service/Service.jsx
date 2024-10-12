@@ -16,7 +16,7 @@ export function Service () {
                <h2 ref={reveal_1} className="reveal-2"><span>Ser</span>vices</h2>
                <div className="containers">
                     <div ref={reveal_2} className="servicesRev reveals-10 card">
-                         <a><i className='bx bxs-data'></i></a>
+                         <a><i className='bx bx-palette'></i></a>
                          <h3>Développement Front-End</h3>
                          <p>
                               Création d'interfaces utilisateur intéractives, intégration d'APIs, 
@@ -24,7 +24,7 @@ export function Service () {
                          </p>
                     </div>
                     <div ref={reveal_3} className="servicesRev reveals-11 card">
-                         <a><i className='bx bx-palette'></i></a>
+                         <a><i className='bx bxs-data'></i></a>
                          <h3>Développement Back-End</h3>
                          <p>
                               Concéption de systèmes robustes, gestion des bases de données et 
