@@ -23,9 +23,10 @@ export function Project () {
      const updateVisibleSlides = () => {
           setVisibleSlides(getVisibleSlides());
      };
+
       
      useEffect(() => {
-          updateVisibleSlides();
+          updateVisibleSlides()
           window.addEventListener('resize', updateVisibleSlides);
           return () => window.removeEventListener('resize', updateVisibleSlides);
      }, []);
