@@ -801,7 +801,7 @@ span {
 }
 
 .slide:hover {
-     transform:translateY(-30px);
+     transform:translateY(-5px);
 }
 
 .slide .image {
