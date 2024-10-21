@@ -756,7 +756,7 @@ span {
      justify-content:center;
      align-items:center;
      height:500px;
-     max-height:500Px;
+     max-height:600Px;
      color: white;
      font-size: 24px;
      padding: 40px 20px;
@@ -1020,26 +1020,26 @@ span {
 
      .slide .project-content h2 {
           width:100%;
-          font-size:2.5rem;
-          margin:1.5rem 0 2rem 0;
+          font-size:2rem;
+          margin:1rem 0 1rem 0;
      }
      
      .slide .project-container .project-content p {
-          font-size: 1.5rem;
+          font-size: 1.2rem;
           line-height: 1.6;
-          margin-bottom: 15px;
+          margin-bottom: 10px;
           margin-left:20px;
      }
      
      .slide .project-container .project-content h3 {
-          font-size:1.5rem;
+          font-size:1.2rem;
           font-weight:400;
           margin-bottom:10px;
      }
      
      .slide .project-container .project-content ul li {
           margin:0 20px;
-          font-size:1.5rem;
+          font-size:1.2rem;
      }
      
 }
