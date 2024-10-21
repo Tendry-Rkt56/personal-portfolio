@@ -964,6 +964,86 @@ span {
      
 }
 
+@media (max-width: 650px) {
+     .containers-projet {
+          width: 90%; /* Augmenté pour pouvoir afficher plusieurs slides */
+     }
+
+     .carousel-container {
+          width:100%;
+     }
+
+     .slide {
+          flex: 1 0 100%;
+          height:400px; /* Affiche 1 diapositive à la fois pour les très petits écrans */
+     }
+
+     .slide .project-content h2 {
+          width:100%;
+          font-size:2.5rem;
+          margin:1.5rem 0 2rem 0;
+     }
+     
+     .slide .project-container .project-content p {
+          font-size: 1.5rem;
+          line-height: 1.6;
+          margin-bottom: 20px;
+          margin-left:20px;
+     }
+     
+     .slide .project-container .project-content h3 {
+          font-size:1.5rem;
+          font-weight:400;
+          margin-bottom:10px;
+     }
+     
+     .slide .project-container .project-content ul li {
+          margin:0 20px;
+          font-size:1.5rem;
+     }
+     
+}
+
+@media (max-width: 450px) {
+     .containers-projet {
+          width: 100%; /* Augmenté pour pouvoir afficher plusieurs slides */
+     }
+
+     .carousel-container {
+          width:100%;
+     }
+
+     .slide {
+          flex: 1 0 100%;
+          height:400px; /* Affiche 1 diapositive à la fois pour les très petits écrans */
+     }
+
+     .slide .project-content h2 {
+          width:100%;
+          font-size:2.5rem;
+          margin:1.5rem 0 2rem 0;
+     }
+     
+     .slide .project-container .project-content p {
+          font-size: 1.5rem;
+          line-height: 1.6;
+          margin-bottom: 15px;
+          margin-left:20px;
+     }
+     
+     .slide .project-container .project-content h3 {
+          font-size:1.5rem;
+          font-weight:400;
+          margin-bottom:10px;
+     }
+     
+     .slide .project-container .project-content ul li {
+          margin:0 20px;
+          font-size:1.5rem;
+     }
+     
+}
+
 /*-------------- Projets --------------------- */
 
 .footer {
