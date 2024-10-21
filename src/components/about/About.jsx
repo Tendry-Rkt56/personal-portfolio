@@ -28,11 +28,11 @@ export function About () {
                               <ul>
                                    <li><strong>Nom:</strong> Tendry Rkt</li>
                                    <li><strong>Téléphone:</strong><a href="https://wa.me/261346413187">+261 34 64 131 87</a></li>
-                                   <li><strong>Experience:</strong> 2 Years</li>
+                                   <li><strong>Experience:</strong> 2 ans</li>
                                    <li><strong>Email:</strong> tendryzephyrin@gmail.com</li>
                                    <li><strong>Age:</strong> 20</li>
                                    <li><strong>Adresse:</strong> Antananarivo, Madagascar</li>
-                                   <li><strong>Freelance:</strong> Available</li>
+                                   <li><strong>Freelance:</strong> Disponible</li>
                               </ul>
                               <a href="/CV_Tendry.pdf" download="CV_Tendry.pdf" className="download btn">Download CV</a>
                          </div>

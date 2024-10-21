@@ -17,8 +17,8 @@ export const items = [
      {
           image:laravel,
           title: "Système de blog", 
-          description:`Gestion de pharmacie en Symfony et JavaScript pour 
-                       administrer les médicaments, les catégories et les ventes via une interface intuitive.`,
+          description:`Une plateforme permettant aux utilisateurs de publier 
+                       des articles et de commenter, avec un système de gestion pour les administrateurs et utilisateurs.`,
           techno: [
                'Laravel 10', 'JavaScript', 'MySQL'
           ]

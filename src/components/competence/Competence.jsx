@@ -2,6 +2,7 @@ import { useRef } from "react"
 import { UseCompetence } from "../../hooks/UseCompetence"
 import symfony from '../../assets/images/symfony-icon.png'
 import sql from '../../assets/images/sql.png'
+import laravel from '../../assets/images/laravel.png'
 
 export function Competence () {
 
@@ -32,16 +33,16 @@ export function Competence () {
                          <div className="skill">
                               <p><i className='css bx bxl-css3'></i></p>
                               <div className="progress-bar">
-                                   <div className="progress" style={{width:"65%"}}></div>
+                                   <div className="progress" style={{width:"70%"}}></div>
                               </div>
-                              <span>65%</span>
+                              <span>70%</span>
                          </div>
                          <div className="skill">
                               <p><i className='js bx bxl-javascript'></i></p>
                               <div className="progress-bar">
-                                   <div className="progress" style={{width:"70%"}}></div>
+                                   <div className="progress" style={{width:"75%"}}></div>
                               </div>
-                              <span>70%</span>
+                              <span>75%</span>
                          </div>
                          <div className="skill">
                               <p><i className='php bx bxl-php'></i></p>
@@ -62,25 +63,27 @@ export function Competence () {
                                    <img className="symfony" src={symfony} alt="" />
                               </p>
                               <div className="progress-bar">
-                                   <div className="progress" style={{width:"80%"}}></div>
+                                   <div className="progress" style={{width:"82%"}}></div>
                               </div>
-                              <span>80%</span>
+                              <span>82%</span>
+                         </div>
+                         <div className="skill">
+                              <p>
+                                   <img src={laravel} alt="" />
+                              </p>
+                              <div className="progress-bar">
+                                   <div className="progress" style={{width:"85%"}}></div>
+                              </div>
+                              <span>85%</span>
                          </div>
                          <div className="skill">
                               <p>
                                    <img className="sql" src={sql} alt=""/>
                               </p>
                               <div className="progress-bar">
-                                   <div className="progress" style={{width:"70%"}}></div>
+                                   <div className="progress" style={{width:"73%"}}></div>
                               </div>
-                              <span>70%</span>
-                         </div>
-                         <div className="skill">
-                              <p><i className='bootstrap bx bxl-bootstrap'></i></p>
-                              <div className="progress-bar">
-                                   <div className="progress" style={{width:"60%"}}></div>
-                              </div>
-                              <span>60%</span>
+                              <span>73%</span>
                          </div>
                     </div>
                </div>

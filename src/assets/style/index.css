@@ -755,7 +755,7 @@ span {
      flex-direction:column;
      justify-content:center;
      align-items:center;
-     /* height:500px; */
+     height:500px;
      max-height:500Px;
      color: white;
      font-size: 24px;
@@ -834,6 +834,7 @@ span {
      font-size:1.5rem;
      font-weight:bold;
      color:#f5F5F5;
+     font-family: 'Poppins', sans-serif;
 }
 
 .prev-btn,
