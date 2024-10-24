@@ -304,6 +304,10 @@ span {
      color: #ffffff;
      /* padding:10rem 12% 10rem; */
  }
+
+ .name {
+     font-weight:bolder;
+ }
  
  .container {
      width: 80%;

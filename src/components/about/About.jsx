@@ -20,7 +20,7 @@ export function About () {
                          </div>
                          <div ref={reveal_1} className="about-details reveal-1">
                               <p>
-                                   Je m'appelle <span>Tendry RAKOTO</span>, et je suis un développeur <strong>PHP/JavaScript </strong> 
+                                   Je m'appelle <span className='name'>Tendry RAKOTO</span>, et je suis un développeur <strong>PHP/JavaScript </strong> 
                                    passionné, spécialisé dans la création d'applications Web robustes et évolutives. Avec plusieurs années d'expérience en 
                                    développement <strong>Full-Stack</strong>, j'ai affiné mes compétences dans la création de systèmes back-end 
                                    efficaces et d'interfaces front-end dynamiques 
